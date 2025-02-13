@@ -1,0 +1,34 @@
+
+#main-404{
+    display: table;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: orangered;
+    background-color: white !important;
+}
+#main-404 .btn{
+    color: white !important;
+    background-color: orangered !important;
+    border: none;
+}
+#main-404 .btn:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.fof{
+	  display: table-cell;
+	  vertical-align: middle;
+}
+
+.fof h1{
+	  font-size: 50px;
+	  display: inline-block;
+	  padding-right: 12px;
+	  animation: type .5s alternate infinite;
+}
+
+@keyframes type{
+	  from{box-shadow: inset -3px 0px 0px orangered;}
+	  to{box-shadow: inset -3px 0px 0px transparent;}
+}
